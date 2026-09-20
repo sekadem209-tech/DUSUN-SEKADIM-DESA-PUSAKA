@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Galeri - Desa Pusaka</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            🌿 <span>Desa Pusaka</span>
+        </a>
+
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+
+        <ul class="nav-menu" id="navMenu">
+
+            <li>
+                <a href="index.html">
+                    Beranda
+                </a>
+            </li>
+
+            <li>
+                <a href="profil.html">
+                    Profil
+                </a>
+            </li>
+
+            <li>
+                <a href="wisata.html">
+                    Potensi
+                </a>
+            </li>
+
+            <li>
+                <a href="galeri.html" class="active">
+                    Galeri
+                </a>
+            </li>
+
+            <li>
+                <a href="kontak.html">
+                    Kontak
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div>
+
+        <p>
+            DOKUMENTASI
+        </p>
+
+        <h1>
+            Galeri Desa
+        </h1>
+
+        <span>
+            Beberapa dokumentasi Dusun Sekadim
+        </span>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <p>
+            GALERI
+        </p>
+
+        <h2>
+            Keindahan Dusun Sekadim
+        </h2>
+
+        <span>
+            Klik foto untuk melihat lebih besar.
+        </span>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+
+        <div class="gallery-item">
+
+            <img src="images/desa.jpg"
+                 alt="Desa Pusaka">
+
+            <div class="gallery-overlay">
+
+                <h3>
+                    Desa Pusaka
+                </h3>
+
+                <p>
+                    Suasana Desa
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item">
+
+            <img src="images/sekolah.jpg"
+                 alt="Sekolah">
+
+            <div class="gallery-overlay">
+
+                <h3>
+                    Sekolah
+                </h3>
+
+                <p>
+                    Pendidikan Desa
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item">
+
+            <img src="images/masjid.jpg"
+                 alt="Masjid">
+
+            <div class="gallery-overlay">
+
+                <h3>
+                    Masjid
+                </h3>
+
+                <p>
+                    Kehidupan Keagamaan
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item">
+
+            <img src="images/lingkungan.jpg"
+                 alt="Lingkungan">
+
+            <div class="gallery-overlay">
+
+                <h3>
+                    Lingkungan
+                </h3>
+
+                <p>
+                    Suasana Lingkungan
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item">
+
+            <img src="images/sungai.jpg"
+                 alt="Sungai">
+
+            <div class="gallery-overlay">
+
+                <h3>
+                    Pemandangan Alam
+                </h3>
+
+                <p>
+                    Keindahan Alam
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- LIGHTBOX -->
+
+<div class="lightbox" id="lightbox">
+
+    <button id="closeLightbox">
+        ×
+    </button>
+
+    <img id="lightboxImage" src="" alt="Preview">
+
+</div>
+
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div>
+
+            <h3>
+                🌿 Desa Pusaka
+            </h3>
+
+            <p>
+                Dusun Sekadim, Kabupaten Sambas,
+                Kalimantan Barat.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Navigasi
+            </h3>
+
+            <a href="index.html">Beranda</a>
+            <a href="profil.html">Profil</a>
+            <a href="wisata.html">Potensi</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="kontak.html">Kontak</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © <span id="year"></span>
+        Desa Pusaka - Dusun Sekadim
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
