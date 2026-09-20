@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Kontak - Desa Pusaka</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            🌿 <span>Desa Pusaka</span>
+        </a>
+
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+
+        <ul class="nav-menu" id="navMenu">
+
+            <li>
+                <a href="index.html">
+                    Beranda
+                </a>
+            </li>
+
+            <li>
+                <a href="profil.html">
+                    Profil
+                </a>
+            </li>
+
+            <li>
+                <a href="wisata.html">
+                    Potensi
+                </a>
+            </li>
+
+            <li>
+                <a href="galeri.html">
+                    Galeri
+                </a>
+            </li>
+
+            <li>
+                <a href="kontak.html" class="active">
+                    Kontak
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div>
+
+        <p>
+            HUBUNGI KAMI
+        </p>
+
+        <h1>
+            Kontak Desa
+        </h1>
+
+        <span>
+            Informasi dan pesan untuk Desa Pusaka
+        </span>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="contact-grid">
+
+
+        <!-- INFORMASI -->
+
+        <div class="contact-info">
+
+            <span class="small-title">
+                INFORMASI
+            </span>
+
+            <h2>
+                Hubungi Kami
+            </h2>
+
+            <p>
+                Untuk informasi lebih lanjut mengenai Desa Pusaka
+                dan Dusun Sekadim, silakan gunakan informasi
+                kontak berikut.
+            </p>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    📍
+                </div>
+
+                <div>
+
+                    <h3>
+                        Alamat
+                    </h3>
+
+                    <p>
+                        Dusun Sekadim, Desa Pusaka,
+                        Kabupaten Sambas,
+                        Kalimantan Barat.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    📞
+                </div>
+
+                <div>
+
+                    <h3>
+                        Telepon
+                    </h3>
+
+                    <p>
+                        Nomor telepon desa dapat ditambahkan
+                        di sini.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    ✉️
+                </div>
+
+                <div>
+
+                    <h3>
+                        Email
+                    </h3>
+
+                    <p>
+                        Email desa dapat ditambahkan
+                        di sini.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FORM -->
+
+        <div class="contact-form">
+
+            <h2>
+                Kirim Pesan
+            </h2>
+
+            <p>
+                Silakan isi formulir berikut.
+            </p>
+
+
+            <form id="contactForm">
+
+                <label>
+                    Nama
+                </label>
+
+                <input
+                    type="text"
+                    id="nama"
+                    placeholder="Masukkan nama"
+                    required
+                >
+
+
+                <label>
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Masukkan email"
+                    required
+                >
+
+
+                <label>
+                    Pesan
+                </label>
+
+                <textarea
+                    id="pesan"
+                    rows="6"
+                    placeholder="Tulis pesan..."
+                    required
+                ></textarea>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary full"
+                >
+                    Kirim Pesan
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MAP PLACEHOLDER -->
+
+<section class="map-section">
+
+    <div>
+
+        <div class="map-icon">
+            📍
+        </div>
+
+        <h2>
+            Dusun Sekadim
+        </h2>
+
+        <p>
+            Desa Pusaka, Kabupaten Sambas,
+            Kalimantan Barat
+        </p>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div>
+
+            <h3>
+                🌿 Desa Pusaka
+            </h3>
+
+            <p>
+                Dusun Sekadim, Kabupaten Sambas,
+                Kalimantan Barat.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Navigasi
+            </h3>
+
+            <a href="index.html">Beranda</a>
+            <a href="profil.html">Profil</a>
+            <a href="wisata.html">Potensi</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="kontak.html">Kontak</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © <span id="year"></span>
+        Desa Pusaka - Dusun Sekadim
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
