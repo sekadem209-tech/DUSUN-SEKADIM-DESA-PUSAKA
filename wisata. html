@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Potensi Desa - Desa Pusaka</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            🌿 <span>Desa Pusaka</span>
+        </a>
+
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+
+        <ul class="nav-menu" id="navMenu">
+
+            <li>
+                <a href="index.html">
+                    Beranda
+                </a>
+            </li>
+
+            <li>
+                <a href="profil.html">
+                    Profil
+                </a>
+            </li>
+
+            <li>
+                <a href="wisata.html" class="active">
+                    Potensi
+                </a>
+            </li>
+
+            <li>
+                <a href="galeri.html">
+                    Galeri
+                </a>
+            </li>
+
+            <li>
+                <a href="kontak.html">
+                    Kontak
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div>
+
+        <p>
+            DESA PUSAKA
+        </p>
+
+        <h1>
+            Potensi & Keindahan
+        </h1>
+
+        <span>
+            Menampilkan potensi yang ada di desa
+        </span>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <p>
+            POTENSI DESA
+        </p>
+
+        <h2>
+            Keindahan Dusun Sekadim
+        </h2>
+
+    </div>
+
+
+    <div class="potential-grid">
+
+
+        <article class="potential-card">
+
+            <img src="images/lingkungan.jpg"
+                 alt="Lingkungan desa">
+
+            <div>
+
+                <span>
+                    01
+                </span>
+
+                <h3>
+                    Keindahan Lingkungan
+                </h3>
+
+                <p>
+                    Lingkungan sekitar desa memberikan suasana
+                    yang sederhana, alami, dan nyaman.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="potential-card">
+
+            <img src="images/sungai.jpg"
+                 alt="Pemandangan sungai">
+
+            <div>
+
+                <span>
+                    02
+                </span>
+
+                <h3>
+                    Pemandangan Alam
+                </h3>
+
+                <p>
+                    Pemandangan alam menjadi salah satu bagian
+                    menarik dari suasana kehidupan pedesaan.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="potential-card">
+
+            <img src="images/sekolah.jpg"
+                 alt="Sekolah">
+
+            <div>
+
+                <span>
+                    03
+                </span>
+
+                <h3>
+                    Pendidikan
+                </h3>
+
+                <p>
+                    Pendidikan menjadi salah satu bagian penting
+                    dalam perkembangan masyarakat desa.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="potential-card">
+
+            <img src="images/masjid.jpg"
+                 alt="Masjid">
+
+            <div>
+
+                <span>
+                    04
+                </span>
+
+                <h3>
+                    Kehidupan Keagamaan
+                </h3>
+
+                <p>
+                    Kegiatan keagamaan menjadi bagian dari
+                    kehidupan masyarakat Dusun Sekadim.
+                </p>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<section class="quote-section">
+
+    <div>
+
+        <span>
+            🌿
+        </span>
+
+        <h2>
+            "Keindahan desa bukan hanya
+            tentang tempatnya, tetapi juga
+            tentang kehidupan masyarakatnya."
+        </h2>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div>
+
+            <h3>
+                🌿 Desa Pusaka
+            </h3>
+
+            <p>
+                Dusun Sekadim, Kabupaten Sambas,
+                Kalimantan Barat.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Navigasi
+            </h3>
+
+            <a href="index.html">Beranda</a>
+            <a href="profil.html">Profil</a>
+            <a href="wisata.html">Potensi</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="kontak.html">Kontak</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © <span id="year"></span>
+        Desa Pusaka - Dusun Sekadim
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
