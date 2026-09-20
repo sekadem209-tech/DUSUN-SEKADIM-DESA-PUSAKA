@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Profil Desa - Desa Pusaka</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            🌿 <span>Desa Pusaka</span>
+        </a>
+
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+
+        <ul class="nav-menu" id="navMenu">
+
+            <li>
+                <a href="index.html">
+                    Beranda
+                </a>
+            </li>
+
+            <li>
+                <a href="profil.html" class="active">
+                    Profil
+                </a>
+            </li>
+
+            <li>
+                <a href="wisata.html">
+                    Potensi
+                </a>
+            </li>
+
+            <li>
+                <a href="galeri.html">
+                    Galeri
+                </a>
+            </li>
+
+            <li>
+                <a href="kontak.html">
+                    Kontak
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<!-- PAGE HEADER -->
+
+<section class="page-hero">
+
+    <div>
+
+        <p>
+            DESA PUSAKA
+        </p>
+
+        <h1>
+            Profil Desa
+        </h1>
+
+        <span>
+            Mengenal lebih dekat Dusun Sekadim
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- PROFIL -->
+
+<section class="section">
+
+    <div class="two-column">
+
+        <div class="image-box">
+
+            <img src="images/desa.jpg"
+                 alt="Desa Pusaka">
+
+        </div>
+
+
+        <div class="content-box">
+
+            <span class="small-title">
+                TENTANG DESA
+            </span>
+
+            <h2>
+                Dusun Sekadim, Desa Pusaka
+            </h2>
+
+            <p>
+                Dusun Sekadim merupakan bagian dari Desa Pusaka,
+                Kabupaten Sambas, Provinsi Kalimantan Barat.
+            </p>
+
+            <p>
+                Desa merupakan tempat masyarakat hidup,
+                berkembang, bekerja, dan membangun kehidupan
+                bersama.
+            </p>
+
+            <p>
+                Website ini dibuat sebagai media informasi
+                sederhana untuk memperkenalkan Desa Pusaka
+                dan Dusun Sekadim.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- INFORMASI -->
+
+<section class="light-section">
+
+    <div class="section-heading">
+
+        <p>INFORMASI</p>
+
+        <h2>
+            Tentang Dusun Sekadim
+        </h2>
+
+    </div>
+
+
+    <div class="stats-container">
+
+        <div class="stat-box">
+
+            <div class="stat-icon">
+                📍
+            </div>
+
+            <h3>
+                Lokasi
+            </h3>
+
+            <p>
+                Desa Pusaka, Kabupaten Sambas,
+                Kalimantan Barat
+            </p>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <div class="stat-icon">
+                🌿
+            </div>
+
+            <h3>
+                Lingkungan
+            </h3>
+
+            <p>
+                Lingkungan pedesaan dengan suasana
+                yang asri dan nyaman.
+            </p>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <div class="stat-icon">
+                👨‍👩‍👧‍👦
+            </div>
+
+            <h3>
+                Masyarakat
+            </h3>
+
+            <p>
+                Masyarakat menjadi bagian penting
+                dalam kehidupan desa.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PENDIDIKAN -->
+
+<section class="section">
+
+    <div class="two-column reverse-mobile">
+
+        <div class="content-box">
+
+            <span class="small-title">
+                PENDIDIKAN
+            </span>
+
+            <h2>
+                Pendidikan di Desa
+            </h2>
+
+            <p>
+                Pendidikan mempunyai peranan penting dalam
+                meningkatkan kualitas sumber daya manusia.
+            </p>
+
+            <p>
+                Keberadaan sekolah menjadi salah satu bagian
+                penting dalam mendukung kegiatan pendidikan
+                bagi masyarakat sekitar.
+            </p>
+
+        </div>
+
+
+        <div class="image-box">
+
+            <img src="images/sekolah.jpg"
+                 alt="Sekolah di Desa">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div>
+
+            <h3>🌿 Desa Pusaka</h3>
+
+            <p>
+                Dusun Sekadim, Kabupaten Sambas,
+                Kalimantan Barat.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Navigasi</h3>
+
+            <a href="index.html">Beranda</a>
+            <a href="profil.html">Profil</a>
+            <a href="wisata.html">Potensi</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="kontak.html">Kontak</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © <span id="year"></span>
+        Desa Pusaka - Dusun Sekadim
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
