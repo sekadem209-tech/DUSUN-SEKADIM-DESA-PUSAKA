@@ -1,0 +1,210 @@
+/* =========================
+   MENU MOBILE
+========================= */
+
+const menuToggle =
+    document.getElementById("menuToggle");
+
+const navMenu =
+    document.getElementById("navMenu");
+
+
+if (menuToggle && navMenu) {
+
+    menuToggle.addEventListener("click", function () {
+
+        navMenu.classList.toggle("show");
+
+    });
+
+}
+
+
+/* =========================
+   TAHUN OTOMATIS
+========================= */
+
+const year =
+    document.getElementById("year");
+
+
+if (year) {
+
+    year.textContent =
+        new Date().getFullYear();
+
+}
+
+
+/* =========================
+   GALERI LIGHTBOX
+========================= */
+
+const galleryItems =
+    document.querySelectorAll(".gallery-item");
+
+const lightbox =
+    document.getElementById("lightbox");
+
+const lightboxImage =
+    document.getElementById("lightboxImage");
+
+const closeLightbox =
+    document.getElementById("closeLightbox");
+
+
+galleryItems.forEach(function (item) {
+
+    item.addEventListener("click", function () {
+
+        const image =
+            item.querySelector("img");
+
+        if (image && lightbox && lightboxImage) {
+
+            lightboxImage.src =
+                image.src;
+
+            lightboxImage.alt =
+                image.alt;
+
+            lightbox.classList.add("show");
+
+        }
+
+    });
+
+});
+
+
+if (closeLightbox) {
+
+    closeLightbox.addEventListener(
+        "click",
+        function () {
+
+            lightbox.classList.remove("show");
+
+        }
+    );
+
+}
+
+
+if (lightbox) {
+
+    lightbox.addEventListener(
+        "click",
+        function (event) {
+
+            if (event.target === lightbox) {
+
+                lightbox.classList.remove("show");
+
+            }
+
+        }
+    );
+
+}
+
+
+/* =========================
+   ESC UNTUK MENUTUP GALERI
+========================= */
+
+document.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (event.key === "Escape" &&
+            lightbox) {
+
+            lightbox.classList.remove("show");
+
+        }
+
+    }
+);
+
+
+/* =========================
+   FORM KONTAK
+========================= */
+
+const contactForm =
+    document.getElementById("contactForm");
+
+
+if (contactForm) {
+
+    contactForm.addEventListener(
+        "submit",
+        function (event) {
+
+            event.preventDefault();
+
+            const nama =
+                document.getElementById("nama").value;
+
+            alert(
+                "Terima kasih, " +
+                nama +
+                "! Pesan kamu sudah diterima."
+            );
+
+            contactForm.reset();
+
+        }
+    );
+
+}
+
+
+/* =========================
+   ANIMASI SAAT SCROLL
+========================= */
+
+const animatedElements =
+    document.querySelectorAll(
+        ".info-card, .potential-card, .gallery-item, .stat-box"
+    );
+
+
+const observer =
+    new IntersectionObserver(
+        function (entries) {
+
+            entries.forEach(function (entry) {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.style.opacity = "1";
+
+                    entry.target.style.transform =
+                        "translateY(0)";
+
+                }
+
+            });
+
+        },
+        {
+            threshold: 0.15
+        }
+    );
+
+
+animatedElements.forEach(function (element) {
+
+    element.style.opacity = "0";
+
+    element.style.transform =
+        "translateY(25px)";
+
+    element.style.transition =
+        "opacity 0.6s ease, transform 0.6s ease";
+
+    observer.observe(element);
+
+});
